@@ -1,0 +1,110 @@
+(footprint "01x04_SMD_Pads"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "65c8607c-dc07-44da-8f90-6ad75c81fc37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "01x04_SMD_Pads"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "67dd1bac-4868-40f5-8ba9-a2a1b88fc75a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f63cdb5-a834-437f-ae69-658f28b7d718")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0e95aab-6f75-435a-8173-e66af02362ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "781047f8-ef7e-449a-84e6-040af8ca0871")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "018fff4b-29d6-421f-8775-5110923ee6f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -5 90)
+		(size 4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fd1a4b57-8f44-4c5e-b3c0-f569d3e7d8d6")
+	)
+	(pad "2" smd rect
+		(at 3 -5 90)
+		(size 4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "142ae861-7077-4118-9201-22b5d1e273c5")
+	)
+	(pad "3" smd rect
+		(at 6 -5 90)
+		(size 4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b32b6d1f-4a2a-4f57-83a4-71455dedceb1")
+	)
+	(pad "4" smd rect
+		(at 9 -5 90)
+		(size 4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e59e3837-048e-40d3-9490-5541b1092ea1")
+	)
+)
